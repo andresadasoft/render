@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: coolbeans-proxy
+    env: docker
+    plan: free
+    autoDeploy: false
+    dockerfilePath: ./Dockerfile
